@@ -10,7 +10,9 @@ function App() {
   return (
     <ChakraProvider>
       <Header />
+      <div style ={{marginTop: "4rem"}}>
       <Outlet />
+      </div>
       <Footer />
     </ChakraProvider>
   );
