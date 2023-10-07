@@ -5,14 +5,13 @@ import { Box } from "@chakra-ui/react";
 export default function Nav() {
   return (
     <Box
-      position="fixed"
       display="flex"
       justifyContent="space-evenly"
       width="100%"
       bgColor="gray.200"
       p="2" 
     >
-      <Link key={1} to="/about">
+      <Link key={1} to="/about" colorScheme="yellow">
         About Me
       </Link>
       <Link key={2} to="/portfolio">
