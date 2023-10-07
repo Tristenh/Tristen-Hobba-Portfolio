@@ -1,5 +1,5 @@
 // import `ChakraProvider` component
-import { ChakraProvider } from "@chakra-ui/react";
+import { ChakraProvider, Box } from "@chakra-ui/react";
 // Bringing in the required import from 'react-router-dom'
 import { Outlet } from "react-router-dom";
 // import Header
@@ -10,10 +10,10 @@ function App() {
   return (
     <ChakraProvider>
       <Header />
-      <div style ={{marginTop: "4rem"}}>
-      <Outlet />
-      </div>
-      <Footer />
+        <Box m={{ base: 20, md: 20 }}>
+          <Outlet />
+        </Box>
+        <Footer />
     </ChakraProvider>
   );
 }
