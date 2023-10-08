@@ -1,5 +1,15 @@
 // import Chakra classes
-import { Grid, GridItem, Card, CardBody, CardHeader } from "@chakra-ui/react";
+import {
+  Grid,
+  GridItem,
+  Card,
+  CardBody,
+  CardHeader,
+  Icon,
+} from "@chakra-ui/react";
+// icons
+import { AiFillGithub } from "react-icons/ai";
+
 // import images
 import theTechBlogImage from "../assets/images/the-tech-blog.png";
 import yourRecipeBookImage from "../assets/images/your-recipe-book.png";
@@ -13,31 +23,37 @@ const projects = [
   {
     name: "The Tech Blog",
     image: theTechBlogImage,
+    github: "https://github.com/Tristenh/the-tech-blog",
     href: "https://tristen-the-tech-blog-5fd2bf5771e2.herokuapp.com/",
   },
   {
     name: "Your Recipe Book",
     image: yourRecipeBookImage,
+    github: "https://github.com/Tristenh/your-recipe-book",
     href: "https://your-recipe-book-985222554f68.herokuapp.com/",
   },
   {
     name: "Travel Explorer",
     image: travelExplorerImage,
+    github: "https://github.com/Tristenh/Travel-Explorer",
     href: "https://tristenh.github.io/Travel-Explorer/",
   },
   {
     name: "5 Day Weather Forcast",
     image: weatherForcastImage,
+    github: "https://github.com/Tristenh/5-day-weather-forecast",
     href: "https://tristenh.github.io/5-day-weather-forecast/",
   },
   {
     name: "Work Day scheduler",
     image: workDaySchedulerImage,
+    github: "https://github.com/Tristenh/work-day-scheduler",
     href: "https://tristenh.github.io/work-day-scheduler/",
   },
   {
     name: "Tristen's Coding Quiz",
     image: codingQuizImage,
+    github: "https://github.com/Tristenh/Tristens-Coding-Quiz",
     href: "https://tristenh.github.io/Tristens-Coding-Quiz/",
   },
 ];
@@ -64,9 +80,18 @@ export default function PortfolioPage() {
           <GridItem key={index}>
             <Card>
               <CardHeader>
-                <h2>{project.name}</h2>
+                <a href={project.github}>
+                  <h2>
+                    <Icon
+                      as={AiFillGithub}
+                      boxSize={{ base: "50px", md: "75px" }}
+                    ></Icon>
+                    {project.name}
+                  </h2>
+                </a>
               </CardHeader>
               <CardBody>
+                <p>Deployed Application:</p>
                 <a href={project.href}>
                   <img src={project.image} alt={project.name} />
                 </a>
