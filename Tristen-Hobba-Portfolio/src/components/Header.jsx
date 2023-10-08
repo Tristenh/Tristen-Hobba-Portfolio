@@ -11,7 +11,7 @@ export default function Nav() {
       bgColor="gray.200"
       p="2" 
     >
-      <Link key={1} to="/about" colorScheme="yellow">
+      <Link key={1} to="/about">
         About Me
       </Link>
       <Link key={2} to="/portfolio">

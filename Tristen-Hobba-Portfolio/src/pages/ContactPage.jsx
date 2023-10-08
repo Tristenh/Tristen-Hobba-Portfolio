@@ -4,6 +4,7 @@ import {
   Input,
   Button,
   Center,
+  Textarea,
 } from "@chakra-ui/react";
 import { useState } from "react";
 
@@ -97,7 +98,7 @@ export default function ContactPage() {
               name="email"
             />
             <FormLabel>Message:</FormLabel>
-            <Input
+            <Textarea
               value={message}
               onChange={handleInputChange}
               onBlur={handleBlur}
@@ -105,7 +106,7 @@ export default function ContactPage() {
               name="message"
             />
             <Center>
-              <Button type="submit" w={"20rem"} mt={"2rem"} colorScheme="green">
+              <Button type="submit" w={"20rem"} mt={"2rem"} colorscheme="green">
                 Submit
               </Button>
             </Center>
