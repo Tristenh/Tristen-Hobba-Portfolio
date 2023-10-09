@@ -4,8 +4,7 @@ As a dedicated and versatile developer, I bring a wealth of experience in both f
 
 # Technologies used
 * React
-* React 
-* Router
+* React Router
 * Node
 * Express
 * Chakra
