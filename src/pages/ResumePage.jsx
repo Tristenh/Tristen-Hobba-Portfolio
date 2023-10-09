@@ -2,7 +2,7 @@ export default function ResumePage() {
   return (
     <div>
       <h1>Resume</h1>
-      <a href="./src/assets/TristenHobbaResume.docx" download>
+      <a href="./src/public/TristenHobbaResume.docx" download>
         Download my resume
       </a>
       <h2>Front end proficiencies</h2>
