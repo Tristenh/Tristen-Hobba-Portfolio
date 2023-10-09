@@ -3,12 +3,12 @@
 As a dedicated and versatile developer, I bring a wealth of experience in both front-end and back-end technologies to the table. With a strong foundation in web development, I am passionate about crafting seamless and user-friendly digital experiences. My skill set encompasses a wide range of proficiencies, enabling me to deliver dynamic and responsive web applications that meet the needs of both users and businesses.
 
 # Technologies used
-*React
-*React 
-*Router
-*Node
-*Express
-*Chakra
+* React
+* React 
+* Router
+* Node
+* Express
+* Chakra
 
 # Deployed Application
 https://tristenh.github.io/Tristen-Hobba-Portfolio/
