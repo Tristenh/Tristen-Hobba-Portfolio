@@ -1,6 +1,6 @@
 {
   "name": "tristen-hobba-portfolio",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "homepage": "https://tristenh.github.io/Tristen-Hobba-Portfolio",
   "type": "module",
