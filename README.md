@@ -1,8 +1,16 @@
-# React + Vite
+# Tristen Hobba Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+As a dedicated and versatile developer, I bring a wealth of experience in both front-end and back-end technologies to the table. With a strong foundation in web development, I am passionate about crafting seamless and user-friendly digital experiences. My skill set encompasses a wide range of proficiencies, enabling me to deliver dynamic and responsive web applications that meet the needs of both users and businesses.
 
-Currently, two official plugins are available:
+# Technologies used
+* React
+* React Router
+* Node
+* Express
+* Chakra
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Deployed Application
+https://tristenh.github.io/Tristen-Hobba-Portfolio/
+
+
+![Screenshot (170)](https://github.com/Tristenh/Tristen-Hobba-Portfolio/assets/121472192/570bdf83-3a3d-4a7d-8ed8-699dfd424fa6)
