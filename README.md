@@ -10,7 +10,7 @@ As a dedicated and versatile developer, I bring a wealth of experience in both f
 * Chakra
 
 # Deployed Application
-[https://tristenh.github.io/Tristen-Hobba-Portfolio/](https://main--clever-monstera-0a6578.netlify.app/)
+https://main--clever-monstera-0a6578.netlify.app/
 
 
 ![Screenshot (170)](https://github.com/Tristenh/Tristen-Hobba-Portfolio/assets/121472192/570bdf83-3a3d-4a7d-8ed8-699dfd424fa6)
