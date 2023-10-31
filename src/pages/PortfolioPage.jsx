@@ -87,7 +87,7 @@ export default function PortfolioPage() {
           <GridItem key={index}>
             <Card>
               <CardHeader>
-                <a href={project.github}>
+                <a  href={project.github} target="_blank">
                   <h2>
                     <Icon
                       as={AiFillGithub}
@@ -99,7 +99,7 @@ export default function PortfolioPage() {
               </CardHeader>
               <CardBody>
                 <p>Deployed Application:</p>
-                <a href={project.href}>
+                <a href={project.href} target="_blank">
                   <img src={project.image} alt={project.name} />
                 </a>
               </CardBody>
