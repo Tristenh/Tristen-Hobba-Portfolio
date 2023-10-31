@@ -22,6 +22,12 @@ import sparkShopperImage from "../assets/images/spark-shopper.png";
 // array of project data
 const projects = [
   {
+    name: "Spark Shopper",
+    image: sparkShopperImage,
+    github: "https://github.com/Tristenh/spark-shopper",
+    href: "https://spark-shopper-c35a92bbd283.herokuapp.com/",
+  },
+  {
     name: "The Tech Blog",
     image: theTechBlogImage,
     github: "https://github.com/Tristenh/the-tech-blog",
@@ -57,12 +63,6 @@ const projects = [
     github: "https://github.com/Tristenh/Tristens-Coding-Quiz",
     href: "https://tristenh.github.io/Tristens-Coding-Quiz/",
   },
-  {
-    name: "Tristen's Coding Quiz",
-    image: sparkShopperImage,
-    github: "https://github.com/Tristenh/spark-shopper",
-    href: "https://spark-shopper-c35a92bbd283.herokuapp.com/",
-  },
 ];
 // export PorfolioPage
 export default function PortfolioPage() {
@@ -87,7 +87,7 @@ export default function PortfolioPage() {
           <GridItem key={index}>
             <Card>
               <CardHeader>
-                <a  href={project.github} target="_blank">
+                <a href={project.github} target="_blank">
                   <h2>
                     <Icon
                       as={AiFillGithub}
